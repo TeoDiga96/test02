@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test02/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -41,6 +42,7 @@ class _RootPageState extends State<RootPage> {
       appBar: AppBar(
         title: const Text('test app 2'),
       ),
+      body: const HomePage(),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           print('bottone premuto');
