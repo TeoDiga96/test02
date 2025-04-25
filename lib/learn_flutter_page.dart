@@ -21,6 +21,15 @@ class _LearnFlutterPageState extends State<LearnFlutterPage> {
           icon: const Icon(Icons.arrow_back),
         ),
       ),
+      body: Column(
+        children: [
+          Image.asset('images/deadpool.png'),
+          const SizedBox(height: 10,),
+          const Divider(
+            color: Colors.red,
+          ),
+        ],
+      ),
     );
   }
 }
