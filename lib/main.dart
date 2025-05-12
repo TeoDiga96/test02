@@ -47,7 +47,10 @@ class _RootPageState extends State<RootPage> {
       appBar: AppBar(
         title: const Text('test app 2'),
       ),
-      body: pages[currenPage],
+      body: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: pages[currenPage],
+      ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           print('bottone premuto');
